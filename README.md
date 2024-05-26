@@ -1,5 +1,4 @@
 # Regression-Analysis-for-Predicting-Vehicle-Prices
-Regression Analysis for Predicting Vehicle Prices
 ## 1. Dataset
 This project uses the automobile dataset available at: https://archive.ics.uci.edu/ml/machine-learning-databases/autos/imports-85.data
 
