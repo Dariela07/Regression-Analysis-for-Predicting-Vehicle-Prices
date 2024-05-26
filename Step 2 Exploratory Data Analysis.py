@@ -214,7 +214,7 @@ print("ANOVA results: F=", f_val, ", P =", p_val)
 # Drive-wheels
 
 
-# Explore for multiple liner regression
+# Explore for multiple linear regression
 
 features = ['engine-size', 'horsepower', 'curb-weight', 'highway-L/100km']
 plt.figure(figsize=(12, 12))
