@@ -6,7 +6,7 @@ from sklearn.preprocessing import PolynomialFeatures
 from sklearn.model_selection import train_test_split, cross_val_score, cross_val_predict
 import seaborn as sns
 
-df = pd.read_csv("clear_data_le.csv")
+df = pd.read_csv("clean_data_le.csv")
 print(df.shape)
 
 features = ['engine-size', 'horsepower', 'curb-weight', 'highway-L/100km']

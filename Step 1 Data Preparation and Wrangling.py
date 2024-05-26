@@ -111,6 +111,6 @@ df.drop("fuel-type", axis=1, inplace=True)
 
 print(df.shape)
 print(df.head())
-df.to_csv("clear_data.csv", index=False)
+df.to_csv("clean_data.csv", index=False)
 
 

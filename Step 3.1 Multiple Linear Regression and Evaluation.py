@@ -6,7 +6,7 @@ from sklearn import preprocessing
 from sklearn.model_selection import train_test_split, cross_val_score,cross_val_predict
 import seaborn as sns
 
-df = pd.read_csv("clear_data.csv")
+df = pd.read_csv("clean_data.csv")
 # print(df.head())
 # print(df.dtypes)
 # print(df.columns)
@@ -21,7 +21,7 @@ le.fit(df['drive-wheels'])
 df['drive-wheels'] = le.transform(df['drive-wheels'])
 print(le.classes_)
 
-df.to_csv("clear_data_le.csv")
+df.to_csv("clean_data_le.csv")
 
 lm = LinearRegression()
 predictors1 = df[['engine-size', 'engine-location', 'horsepower', 'curb-weight', 'drive-wheels']]

@@ -6,7 +6,7 @@ from scipy import stats
 
 # Explore "What are the main characteristics which have the most impact on the car price?".
 
-df = pd.read_csv("clear_data.csv")
+df = pd.read_csv("clean_data.csv")
 print(df.head())
 print(df.dtypes)  # what type of variable you are dealing with
 
